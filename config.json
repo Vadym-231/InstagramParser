@@ -1,0 +1,17 @@
+{
+  "Auth": {
+    "username": "LoginAnyAccount",
+    "password": "PasswordForAnyAccount"
+  },
+  "Output": {
+    "type": "json or mongo",
+    "dirJson": "default C:\\Users\\Вадим\\WebstormProjects\\untitled31\\users_id.json",
+    "dbUrl": ""
+  },
+  "ParseConfig": {
+    "nameOrId":"nickname or instagramId",
+    "proxyConfig": {
+      "ipaddress": "Host", "port": "Port", "type": "type"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "untitled31",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd src && node start",
+    "start tor-proxy": "cd tor-proxy/Tor/Tor && tor --HttpTunnel 9001",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "instagram-nodejs-without-api": "^1.2.0",
+    "instagram-web-api": "^2.2.2",
+    "mongoose": "^5.10.16",
+    "node-fetch": "^2.6.0",
+    "promice": "0.0.2",
+    "tor-request": "^3.1.0"
+  },
+  "devDependencies": {
+    "line-reader": "^0.4.0",
+    "request": "^2.88.2"
+  }
+}
